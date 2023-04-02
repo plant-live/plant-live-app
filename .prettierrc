@@ -2,5 +2,6 @@
   "singleQuote": true,
   "arrowParens": "always",
   "endOfLine": "lf",
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "jsxSingleQuote": true
 }
