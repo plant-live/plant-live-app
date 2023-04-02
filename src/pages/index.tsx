@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -71,7 +71,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              Docs
+              <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
@@ -85,7 +86,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              Learn
+              <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
@@ -99,7 +101,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Templates
+              <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
@@ -113,7 +116,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Deploy
+              <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Instantly deploy your Next.js site to a shareable URL
@@ -123,5 +127,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
