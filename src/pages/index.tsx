@@ -10,7 +10,7 @@ export default function App() {
   const themeProviderV5 = ThemeSelectorV5('dark');
   return (
     <ThemeProvider theme={themeProviderV5}>
-      <Teste />
+      <Teste titulo='OI' texto='Boa tarde' />
     </ThemeProvider>
   );
 }
