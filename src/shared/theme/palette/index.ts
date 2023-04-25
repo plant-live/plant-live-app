@@ -13,20 +13,20 @@ const defaultPalette: IDefaultPaleteOptions = {
 };
 
 // TODO: COLORS ARE NOT CORRET YET, I JUST CREATE COLORS PALLETE WE NEED TO POPULATE IT
-const lighPalette: IPaletteOptions = {
-  ...defaultPalette,
-  type: 'light',
-  primary: {
-    contrastText: white,
-    main: '#2E3552',
-    light: '#F6F9FD',
-    dark: '#252a42',
-    shade1: '#3b4469',
-    shade2: '#485380',
-    shade3: '#546197',
-    shade4: '#6673a9'
-  }
-};
+// const lighPalette: IPaletteOptions = {
+//   ...defaultPalette,
+//   type: 'light',
+//   primary: {
+//     contrastText: white,
+//     main: '#2E3552',
+//     light: '#F6F9FD',
+//     dark: '#252a42',
+//     shade1: '#3b4469',
+//     shade2: '#485380',
+//     shade3: '#546197',
+//     shade4: '#6673a9'
+//   }
+// };
 
 // TODO: COLORS ARE NOT CORRET YET, I JUST CREATE COLORS PALLETE WE NEED TO POPULATE IT
 const darkPalette: IPaletteOptions = {
@@ -44,5 +44,5 @@ const darkPalette: IPaletteOptions = {
 };
 
 export const palette = (type: string) => {
-  type === 'dark' ? darkPalette : lighPalette;
+  type === 'dark' && darkPalette;
 };
