@@ -1,3 +1,4 @@
+import DashboardContainer from '@/shared/components/DashboardContainer';
 import Teste from '@/shared/components/Teste';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
