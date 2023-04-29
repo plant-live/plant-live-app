@@ -4,7 +4,7 @@ import { Button, Grid, Typography, styled } from '@mui/material';
 export const StyledWrapper = styled(Grid)({
   display: 'flex',
   flexDirection: 'column',
-  gap: '16px',
+  gap: '1.6rem',
   justifyContent: 'center',
   alignItems: 'center',
   width: '100%',
@@ -20,11 +20,17 @@ export const StyledWrapper = styled(Grid)({
 export const StyledTypography = styled(Typography)({
   color: `${darkColors.text.white}`,
   fontWeight: 700,
+  fontSize: '2.4rem',
 
   '&.buttonText': {
-    fontSize: '16px',
+    fontSize: '1.6rem',
     textTransform: 'none',
     color: `${darkColors.text.button.secondary}`
+  },
+
+  '&.dividerText': {
+    color: `${darkColors.text.primary}`,
+    fontSize: '1.4rem'
   }
 });
 

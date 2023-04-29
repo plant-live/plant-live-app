@@ -9,20 +9,21 @@ export const StyledWrapper = styled(Grid)({
   gap: '1rem',
 
   '&.centerContent': {
-    width: '136px',
-    height: '44px',
-    borderRadius: '12px',
+    width: '13.6rem',
+    height: '4.4rem',
+    borderRadius: '1.2rem',
     border: `1px solid ${darkColors.background.divider}`,
-    padding: '10px'
+    padding: '1rem'
   }
 });
 
 export const StyledDivider = styled(Divider)({
-  height: '1px',
-  width: '136px',
+  height: '0.1rem',
+  width: '13.6rem',
   backgroundColor: `${darkColors.background.divider}`
 });
 
-export const StyledTypography = styled(Typography)({
-  color: `${darkColors.text.primary}`
-});
+export const StyledTypography = styled(Typography)(({ theme }) => ({
+  color: `${darkColors.text.primary}`,
+  fontSize: '1.6rem'
+}));

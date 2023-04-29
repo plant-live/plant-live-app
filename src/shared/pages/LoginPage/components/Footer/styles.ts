@@ -5,10 +5,10 @@ import { red } from '@mui/material/colors';
 export const StyledWrapper = styled('div')({
   position: 'fixed',
   backgroundColor: `${darkColors.background.primary}`,
-  bottom: '34px',
+  bottom: '3.4rem',
   width: '100%',
   display: 'flex',
-  padding: '0 40px 0 40px',
+  padding: '0 4rem 0 4rem',
   justifyContent: 'space-between'
 });
 
