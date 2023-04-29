@@ -1,6 +1,7 @@
 export interface IDarkColors {
   text: {
     primary: string;
+    primaryOnHover: string;
     white: string;
     button: {
       secondary: string;
@@ -8,7 +9,9 @@ export interface IDarkColors {
   };
   background: {
     primary: string;
+    primaryOnHover: string;
     secondary: string;
+    divider: string;
   };
 }
 
