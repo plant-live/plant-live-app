@@ -14,7 +14,7 @@ const LoginBodyTopBar = () => {
         width='33'
         height='33'
       />
-      <StyledTypography variant='h4'>Hi, Welcome Back</StyledTypography>
+      <StyledTypography>Hi, Welcome Back</StyledTypography>
       <StyleButton disableRipple>
         <StyledWrapper className='buttonWrapper'>
           <GoogleIcon />
@@ -23,8 +23,10 @@ const LoginBodyTopBar = () => {
           </StyledTypography>
         </StyledWrapper>
       </StyleButton>
-
       <CustomDivider />
+      <StyledTypography className='dividerText'>
+        Sign in with Email address
+      </StyledTypography>
     </StyledWrapper>
   );
 };
