@@ -17,6 +17,7 @@ export const StyledWrapper = styled(Grid)({
 
 export const StyledTypography = styled(Typography)({
   color: `${darkColors.text.white}`,
+  fontWeight: 700,
 
   '&.buttonText': {
     fontSize: '16px',
