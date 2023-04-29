@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleButton, StyledTypography, StyledWrapper } from './styles';
 import { Typography } from '@mui/material';
 import { GoogleIcon } from '@/icons';
+import CustomDivider from '@/shared/components/CustomDivider';
 
 const LoginBodyTopBar = () => {
   return (
@@ -22,6 +23,8 @@ const LoginBodyTopBar = () => {
           </StyledTypography>
         </StyledWrapper>
       </StyleButton>
+
+      <CustomDivider />
     </StyledWrapper>
   );
 };

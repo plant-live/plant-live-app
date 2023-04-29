@@ -7,9 +7,11 @@ export const StyledWrapper = styled(Grid)({
   gap: '16px',
   justifyContent: 'center',
   alignItems: 'center',
+  width: '100%',
 
   '&.buttonWrapper': {
     display: 'flex',
+    width: '100%',
     flexDirection: 'row',
     color: `${darkColors.text.white}`
   }
@@ -28,5 +30,15 @@ export const StyledTypography = styled(Typography)({
 
 export const StyleButton = styled(Button)({
   backgroundColor: `${darkColors.background.primary}`,
-  width: '100%'
+  width: '100%',
+  cursor: 'pointer',
+
+  '&:hover': {
+    backgroundColor: `${darkColors.background.primaryOnHover}`,
+    color: `${darkColors.text.white}`,
+
+    '& .MuiTypography-root': {
+      color: `${darkColors.text.primaryOnHover}`
+    }
+  }
 });
