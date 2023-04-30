@@ -12,7 +12,7 @@ export const StyledWrapper = styled(Grid)({
     width: '13.6rem',
     height: '4.4rem',
     borderRadius: '1.2rem',
-    border: `1px solid ${darkColors.background.divider}`,
+    border: `1px solid ${darkColors.divider}`,
     padding: '1rem'
   }
 });
@@ -20,7 +20,7 @@ export const StyledWrapper = styled(Grid)({
 export const StyledDivider = styled(Divider)({
   height: '0.1rem',
   width: '13.6rem',
-  backgroundColor: `${darkColors.background.divider}`
+  backgroundColor: `${darkColors.divider}`
 });
 
 export const StyledTypography = styled(Typography)(({ theme }) => ({
