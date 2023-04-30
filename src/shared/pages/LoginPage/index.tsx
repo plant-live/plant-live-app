@@ -8,7 +8,7 @@ import { CustomLoginSingUpComponent as LoginBody } from '@/shared/components/Cus
 const LoginPage: ILoginPage = () => {
   return (
     <StyledLoginWrapper>
-      <LoginBody />
+      <LoginBody checkboxText='Remember me' />
       <Footer />
     </StyledLoginWrapper>
   );
