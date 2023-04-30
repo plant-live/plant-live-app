@@ -15,7 +15,10 @@ export const darkColors: IDarkColors = {
   background: {
     primary: '#182523',
     primaryOnHover: '#64A49B',
-    secondary: '#1E2D2B',
-    divider: '#64A49B'
+    secondary: '#1E2D2B'
+  },
+  divider: '#64A49B',
+  borderColor: {
+    primary: '#64A49B'
   }
 };

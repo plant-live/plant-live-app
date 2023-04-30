@@ -11,7 +11,10 @@ export interface IDarkColors {
     primary: string;
     primaryOnHover: string;
     secondary: string;
-    divider: string;
+  };
+  divider: string;
+  borderColor: {
+    primary: string;
   };
 }
 
