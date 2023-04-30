@@ -25,7 +25,7 @@ export const StyledTypography = styled(Typography)({
   '&.buttonText': {
     fontSize: '1.6rem',
     textTransform: 'none',
-    color: `${darkColors.text.button.secondary}`
+    color: `${darkColors.text.primary}`
   },
 
   '&.dividerText': {
