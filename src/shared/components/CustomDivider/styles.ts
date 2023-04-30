@@ -23,7 +23,7 @@ export const StyledDivider = styled(Divider)({
   backgroundColor: `${darkColors.divider}`
 });
 
-export const StyledTypography = styled(Typography)(({ theme }) => ({
+export const StyledTypography = styled(Typography)({
   color: `${darkColors.text.primary}`,
   fontSize: '1.6rem'
-}));
+});

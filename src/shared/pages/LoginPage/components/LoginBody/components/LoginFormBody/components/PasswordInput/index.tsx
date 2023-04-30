@@ -1,12 +1,5 @@
 import { Visibility, VisibilityOff } from '@mui/icons-material';
-import {
-  FilledInput,
-  FormControl,
-  IconButton,
-  InputAdornment,
-  InputLabel,
-  OutlinedInput
-} from '@mui/material';
+import { InputAdornment, InputLabel } from '@mui/material';
 import React, { useState } from 'react';
 import {
   StyledFilledInput,

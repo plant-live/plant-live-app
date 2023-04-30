@@ -2,7 +2,7 @@ import { TextField, styled } from '@mui/material';
 import { ICustomTextInputProps } from './types';
 
 export const StyledTextField = styled(TextField)<ICustomTextInputProps>(
-  ({ width, borderColor, variant }) => ({
+  ({ width, borderColor }) => ({
     width: width,
     caretColor: borderColor,
     '& label': {
