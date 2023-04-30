@@ -1,18 +1,10 @@
 import { TextField, styled } from '@mui/material';
 import { ICustomTextInputProps } from './types';
 
-// interface ICustomTextFieldProps {
-//   width: string;
-//   borderColor: string;
-// }
-
-// export const StyledTextField = styled(TextField)<ICustomTextFieldProps>(({width}){
-//   width: `${}`
-// });
-
 export const StyledTextField = styled(TextField)<ICustomTextInputProps>(
   ({ width, borderColor, variant }) => ({
     width: width,
+    caretColor: borderColor,
     '& label': {
       color: borderColor
     },
