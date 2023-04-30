@@ -7,7 +7,7 @@ import {
   StyledIconButton
 } from './styles';
 
-const PasswordInput = () => {
+const CustomPasswordInput = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
@@ -41,4 +41,4 @@ const PasswordInput = () => {
   );
 };
 
-export default PasswordInput;
+export default CustomPasswordInput;

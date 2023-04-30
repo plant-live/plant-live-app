@@ -2,9 +2,9 @@ import React from 'react';
 import { StyledWrapper } from './styles';
 import { darkColors } from '@/shared/theme/colors';
 import CustomTextInput from '@/shared/components/CustomTextInput';
-import PasswordInput from './components/PasswordInput';
+import CustomPasswordInput from '../../../CustomPasswordInput';
 
-const LoginFormBody = () => {
+const CustomBody = () => {
   return (
     <StyledWrapper>
       <CustomTextInput
@@ -12,9 +12,9 @@ const LoginFormBody = () => {
         borderColor={`${darkColors.borderColor.primary}`}
         label='Email Address'
       />
-      <PasswordInput />
+      <CustomPasswordInput />
     </StyledWrapper>
   );
 };
 
-export default LoginFormBody;
+export default CustomBody;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledTypography, StyledWrapper } from './styles';
 
-const LoginFooter = () => {
+const Footer = () => {
   return (
     <StyledWrapper>
       <StyledTypography>plante.live</StyledTypography>
@@ -10,4 +10,4 @@ const LoginFooter = () => {
   );
 };
 
-export default LoginFooter;
+export default Footer;

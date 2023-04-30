@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 import { GoogleIcon } from '@/icons';
 import CustomDivider from '@/shared/components/CustomDivider';
 
-const LoginBodyTopBar = () => {
+const CustomTopBar = () => {
   return (
     <StyledWrapper>
       <Image
@@ -31,4 +31,4 @@ const LoginBodyTopBar = () => {
   );
 };
 
-export default LoginBodyTopBar;
+export default CustomTopBar;
