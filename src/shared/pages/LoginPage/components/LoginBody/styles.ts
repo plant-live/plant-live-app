@@ -9,5 +9,6 @@ export const StyledBodyWrapper = styled(Grid)({
   display: 'flex',
   flexDirection: 'column',
   alignContent: 'center',
-  padding: '4rem'
+  padding: '4rem',
+  gap: '2.4rem'
 });
