@@ -1,5 +1,5 @@
 export interface ICustomTypographyProps {
-  checkboxText: string;
+  text: string;
 }
 
 export type ICustomTypography = (props: ICustomTypographyProps) => JSX.Element;
