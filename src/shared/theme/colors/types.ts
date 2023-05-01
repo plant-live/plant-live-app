@@ -1,12 +1,22 @@
-export interface IGrayShades {
-  50: string;
-  100: string;
-  200: string;
-  300: string;
-  400: string;
-  500: string;
-  600: string;
-  700: string;
-  800: string;
-  900: string;
+export interface IDarkColors {
+  text: {
+    primary: string;
+    secondary: string;
+    primaryOnHover: string;
+    white: string;
+    tertiary: string;
+  };
+  background: {
+    primary: string;
+    primaryOnHover: string;
+    secondary: string;
+    tertiary: string;
+    tertiaryOnHover: string;
+  };
+  divider: string;
+  borderColor: {
+    primary: string;
+  };
 }
+
+type SLA = () => number;

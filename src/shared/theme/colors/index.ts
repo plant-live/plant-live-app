@@ -1,26 +1,25 @@
-import { IGrayShades } from './types';
+import { IDarkColors } from './types';
 
-export const white: string = '#FFFFFF';
+export const white = '#FFFFFF';
+export const black = '#000000';
 
-export const grey: IGrayShades = {
-  50: '#FAFAFA',
-  100: '#F5F5F5',
-  200: '#EEEEEE',
-  300: '#E0E0E0',
-  400: '#BDBDBD',
-  500: '#9E9E9E',
-  600: '#757575',
-  700: '#616161',
-  800: '#424242',
-  900: '#212121'
+export const darkColors: IDarkColors = {
+  text: {
+    primary: '#64A49B',
+    secondary: '#182523',
+    primaryOnHover: '#1E2D2B',
+    tertiary: '#0A381E',
+    white: '#fff'
+  },
+  background: {
+    primary: '#182523',
+    primaryOnHover: '#64A49B',
+    secondary: '#1E2D2B',
+    tertiary: '#FBC02D',
+    tertiaryOnHover: '#B48204'
+  },
+  divider: '#64A49B',
+  borderColor: {
+    primary: '#64A49B'
+  }
 };
-
-export const black: string = '#000000';
-
-export const blue: string = '#2e3552';
-
-export const green: string = '#45B880';
-
-export const orange: string = '#FFB822';
-
-export const red: string = '#ED4740';
